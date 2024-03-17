@@ -1,0 +1,70 @@
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 101vh;
+    background-image: url(../Accueil/assets/headerimg.png);
+  }
+  
+  .content2 {
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Largeur maximale du formulaire */
+    width: 100%; /* Largeur du formulaire */
+  }
+
+   .ti {
+    color: rgb(255, 255, 255);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bord11,
+  .bord22,
+  .bord33,
+  .bord44 {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .error2{
+    color: red;
+  }
+  
+  .btn1 {
+    background-color: #121212;
+    color: rgb(201, 28, 28);
+  }
+  
+  .btn2 {
+    /* background-color: #ff0000; */
+    color: rgb(210, 0, 0);
+    text-decoration: none;
+  }
+  p {
+    margin-top: 20px;
+  }
+  
+  .btn2 a {
+    text-decoration: none;
+    color: white;
+  }
+  

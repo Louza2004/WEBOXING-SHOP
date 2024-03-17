@@ -1,0 +1,18 @@
+.navigat {
+    background-color: transparent; /* Fond transparent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navigat a {
+    color: #333; /* Couleur des liens */
+    text-decoration: none; /* Pas de soulignement sur les liens */
+    padding: 10px 20px; /* Espace intérieur des liens */
+    margin: 0 10px; /* Marge autour des liens */
+  }
+  
+  .navigat a:hover {
+    color: #007bff; /* Couleur des liens au survol */
+  }
+  

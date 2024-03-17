@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.hero12 {
+    width: 100%;
+    height: 50vh;
+    background: url(../assets/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero12-text {
+    top: 55%;
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.hero12-text h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero12-text p {
+    font-size: 1rem;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 555px) {
+    .hero12-text h1 {
+        padding: 10px 20px;
+    }
+}
+
+/* --------------- ------------------- --------------- */
